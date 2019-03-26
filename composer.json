@@ -1,0 +1,13 @@
+{
+    "name": "vendor/test",
+    "description": "Salesforce backup.",
+    "authors": [
+        {
+            "name": "angelo",
+            "email": "hangelo.ca@gmail.here"
+        }
+    ],
+    "require": {
+        "mcorrigan/salesforce-rest-api-php-wrapper": "1.0.3"
+    }
+}

@@ -1,0 +1,40 @@
+[
+    {
+        "name": "mcorrigan/salesforce-rest-api-php-wrapper",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mcorrigan/salesforce-rest-api-php-wrapper.git",
+            "reference": "f8c7514c2e39b44677293c51ff47e3424c1801af"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mcorrigan/salesforce-rest-api-php-wrapper/zipball/f8c7514c2e39b44677293c51ff47e3424c1801af",
+            "reference": "f8c7514c2e39b44677293c51ff47e3424c1801af",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=5.4"
+        },
+        "time": "2016-09-14T23:28:16+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SalesforceRestAPI\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GNU-2.0"
+        ],
+        "description": "SalesForce REST API PHP Wrapper",
+        "homepage": "https://github.com/mcorrigan/salesforce-rest-api-php-wrapper",
+        "keywords": [
+            "salesforce"
+        ]
+    }
+]

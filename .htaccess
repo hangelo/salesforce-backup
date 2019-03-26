@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "Salesforce"
+AuthBasicProvider ldap
+AuthLDAPUrl "ldap://ldap.fln.esss.com.br:389/ou=ESSS,dc=esss,dc=com,dc=br?uid?sub?(objectClass=*)"
+   Require valid-user
+
